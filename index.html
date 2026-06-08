@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lutfi Bouquet</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Lutfi<span>Bouquet</span>.</a>
+        <div class="navbar-nav">
+    <a href="#home">Beranda</a>
+    <a href="#about">Tentang Kami</a>
+    <a href="#products">Koleksi Buket</a>
+    <a href="#team">Tim Kami</a>
+    <a href="#reviews">Ulasan</a>
+    <a href="#map">Lokasi</a>
+</div>
+
+        <div class="navbar-extra">
+            <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Simpan Momen Indahmu <span>Selamanya</span></h1>
+            <p>Selamat datang di Lutfi Bouquet. Kami menciptakan buket eksklusif dari kawat bulu premium dan pita satin yang tidak akan pernah layu. Sama seperti kenanganmu, buket ini dirancang untuk bertahan lama sebagai pengingat momen berharga.</p>
+            <a href="https://wa.me/6285891062196?text=Halo%20Lutfia%20Bouquet!%20%F0%9F%8C%B8%0ASaya%20datang%20dari%20website.%20Ingin%20bertanya%20terkait%20produk%0A%0ATerimakasih%F0%9F%A4%97" class="cta" target="_blank">Beli Sekarang</a>
+
+        </main>
+    </section>
+
+    <section id="about" class="about">
+        <h2><span>Tentang</span> Kami</h2>
+        <div class="row">
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1563241527-3004b7be0ffd?q=80&w=800&auto=format&fit=crop" alt="Tentang Lutfi Bouquet">
+            </div>
+<div class="content">
+    <p>Sederet Cerita di Balik Lutfi Bouquet, kami percaya bahwa setiap kado adalah perpanjangan dari perasaan yang sulit diungkapkan dengan kata kata. Berangkat dari kecintaan pada kerajinan tangan, kami menghadirkan alternatif buket yang tidak hanya cantik dipandang, tetapi juga tahan lama.</p>
+    
+    <h3>Kenapa Memilih Lutfi Bouquet?</h3>
+    
+    <p>Kami tidak menggunakan bunga segar yang akan layu, melainkan mengandalkan kreativitas tanpa batas menggunakan kawat bulu yang dibentuk dengan presisi dan pita satin berkualitas yang memberikan kesan mewah. Setiap rangkaian yang kamu terima adalah hasil kerja keras, ketelitian, dan sentuhan personal. Kami ada untuk memastikan momen berhargamu baik wisuda, ulang tahun, atau perayaan lainnya terabadikan dalam bentuk buket yang akan tetap cantik selamanya.</p>
+</div>
+
+    </section>
+
+    <section id="products" class="products">
+        <h2><span>Koleksi</span> Buket</h2>
+        <p>Pilih buket bunga favoritmu dan pesan dengan mudah langsung via WhatsApp.</p>
+        <div class="row">
+            <div class="product-card">
+                <img src="foto produk/produk 1.jpg" alt="Bouquet Pita Satine" class="product-img">
+                <h3 class="product-title">- Bouquet Pita Satine -</h3>
+                <p class="product-price">Start From 25k-235k</p>
+                <button class="order-btn" onclick="orderToWA('Bouquet Pita Satine', '25k-235k')">Pesan (WA) <i data-feather="message-circle"></i></button>
+            </div>
+            <div class="product-card">
+                <img src="foto produk/produk 2.jpg" alt="Bouquet Kawat Bulu" class="product-img">
+                <h3 class="product-title">- Bouquet Kawat Bulu-</h3>
+                <p class="product-price">Start From 5k-225k</p>
+                <button class="order-btn" onclick="orderToWA('Bouquet Kawat Bulu', '5k-225k')">Pesan (WA) <i data-feather="message-circle"></i></button>
+            </div>
+            <div class="product-card">
+                <img src="foto produk/produk 3.jpg" alt="Bouquet Custom" class="product-img">
+                <h3 class="product-title">- Bouquet Custom-</h3>
+                <p class="product-price">Start From 25k-200k</p>
+                <button class="order-btn" onclick="orderToWA('Bouquet Custom', '25k-200k')">Pesan (WA) <i data-feather="message-circle"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>Punya request khusus untuk buketmu? Hubungi kami langsung!</p>
+        <div class="row">
+            <button class="cta-wa" onclick="window.open('https://wa.me/6285891062196?text=Halo%20Lutfia%20Bouquet!%20%F0%9F%8C%B8%0ASaya%20datang%20dari%20website.%20Ingin%20bertanya%20terkait%20produk%0A%0ATerimakasih%F0%9F%A4%97', '_blank')">Chat Lutfi Bouquet <i data-feather="message-circle"></i></button>
+
+        </div>
+    </section>
+
+    <section class="team" id="team">
+        <div class="section-title">
+            <h2>Tim Kami</h2>
+            <p>Sosok kreatif di balik indahnya karangan bunga Anda</p>
+        </div>
+        
+        <div class="team-grid">
+            <div class="team-card animate-card">
+                <div class="team-img">
+                    <img src="foto tim/lutfi.jpg" alt="Lutfi">
+                </div>
+                <div class="team-info">
+                    <h3>Lutfi</h3>
+                    <p class="role">Founder</p>
+                </div>
+            </div>
+
+            <div class="team-card animate-card">
+                <div class="team-img">
+                    <img src="foto tim/wanda.jpg" alt="Wanda">
+                </div>
+                <div class="team-info">
+                    <h3>Wanda</h3>
+                    <p class="role">Creative Team</p>
+                </div>
+            </div>
+
+            <div class="team-card animate-card">
+                <div class="team-img">
+                    <img src="foto tim/nazhira.jpg" alt="Nazhira">
+                </div>
+                <div class="team-info">
+                    <h3>Nazhira</h3>
+                    <p class="role">Production Team </p>
+                </div>
+            </div>
+
+            <div class="team-card animate-card">
+                <div class="team-img">
+                    <img src="foto tim/celline.jpg" alt="Celline">
+                </div>
+                <div class="team-info">
+                    <h3>Celline </h3>
+                    <p class="role">Finishing & QC</p>
+                </div>
+            </div>
+
+            <div class="team-card animate-card">
+                <div class="team-img">
+                    <img src="foto tim/iqmal.jpg" alt="Iqmal">
+                </div>
+                <div class="team-info">
+                    <h3>Iqmal</h3>
+                    <p class="role">Operations Support</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="team-footer-text animate-card">
+            <h3>Dedikasi & Kolaborasi Tim</h3>
+            <p>Kami adalah tim kecil di balik Lutfi Bouquet kami memastikan setiap proses pengerjaan dilakukan dengan teliti agar hasil akhirnya cantik saat sampai di tanganmu. </p>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+    <div class="section-title">
+        <h2>Ulasan <span>Pelanggan</span></h2>
+        <p>Apa kata mereka yang telah mempercayakan momennya kepada kami</p>
+    </div>
+    
+    <div class="reviews-container">
+        <div class="review-card animate-card">
+            <div class="review-header">
+                <i class="fas fa-user-circle profile-icon"></i>
+                <div class="user-info">
+                    <h4 class="reviewer-name">Nabila <span class="reviewer-role">Mahasiswi</span></h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="review-text">"Jujur kaget banget pas sampai! Ekspektasi aku cuma buket kawat bulu biasa, tapi pas lihat langsung di Lutfi Bouquet, detailnya rapi banget. Perpaduan warna kawat bulunya kelihatan mahal dan aesthetic parah. Ini kado wisuda paling unik yang pernah aku kasih. Bakal langganan terus sih ini!"</p>
+        </div>
+
+        <div class="review-card animate-card">
+            <div class="review-header">
+                <i class="fas fa-user-circle profile-icon"></i>
+                <div class="user-info">
+                    <h4 class="reviewer-name">Veronica <span class="reviewer-role">Karyawan Swasta</span></h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="review-text">"Awalnya bingung cari kado untuk rekan kerja, untungnya nemu layanan custom di Lutfi Bouquet. Saya bisa atur sendiri pilihan snack-nya supaya sesuai dengan selera penerima. Hasil rangkaiannya sangat rapi, profesional, dan tetap terlihat manis. Proses pemesanannya juga sangat membantu kami yang sibuk. Pasti akan order lagi untuk acara kantor berikutnya!!"</p>
+        </div>
+
+        <div class="review-card animate-card">
+            <div class="review-header">
+                <i class="fas fa-user-circle profile-icon"></i>
+                <div class="user-info">
+                    <h4 class="reviewer-name">Lestari <span class="reviewer-role">Ibu Rumah Tangga</span></h4>
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            <p class="review-text">"Biasanya kalau anniversary suami ngasih bunga asli, tapi tahun ini saya coba kasih kado buket dari Lutfi Bouquet buat suami. Kaget banget pas dia lihat, katanya buket pita satin ini unik banget dan nggak terpikir bakal awet terus. Sekarang buketnya jadi pajangan manis di lemari kaca ruang tengah kami, jadi pengingat momen anniversary tahun ini yang terus kelihatan cantik tiap hari. Makasih Lutfi bouquet!"</p>
+        </div>
+    </div>
+</section>
+
+    <section class="map-section" id="map">
+        <div class="section-title">
+            <h2>Kunjungi Toko Kami</h2>
+            <p>Temukan keindahan buket cantik langsung di galeri workshop kami</p>
+        </div>
+        <div class="map-container animate-card">
+            <iframe src="https://maps.google.com/maps?q=-6.267386,106.757930&t=&z=19&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <footer>
+        <div class="socials">
+            <a href="https://www.instagram.com/lutfibouquet_?igsh=aTJvdnhuNXZxYzR4"><i data-feather="instagram"></i></a>
+        </div>
+        <div class="links">
+            <a href="#home">Beranda</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#products">Koleksi</a>
+            <a href="#contact">Kontak</a>
+            <a href="#team">Tim Kami</a>
+            <a href="#riview">Ulasan</a>
+            <a href="#map">Lokasi</a>
+        </div>
+        <div class="credit">
+            <p>Created by <a href="#">Kelompok Dua</a>. | &copy; 2026 Lutfi Bouquet.</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace()
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
